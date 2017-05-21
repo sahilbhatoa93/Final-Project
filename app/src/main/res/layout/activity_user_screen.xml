@@ -24,8 +24,8 @@
         android:text="Sahil Bhatoa"
         android:textSize="35sp"
 
-        android:layout_marginTop="325dp"
-        android:layout_centerHorizontal="true" />
+        android:layout_above="@+id/imageView12"
+        android:layout_toEndOf="@+id/textView16" />
 
     <ImageView
         android:id="@+id/imageView12"

@@ -6,439 +6,432 @@
     android:orientation="vertical">
 
 
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
 
-        <ScrollView
-            android:id="@+id/scrollView2"
+
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#fff">
+            android:layout_height="match_parent">
 
-
-            <RelativeLayout
+            <android.support.v7.widget.CardView
+                android:id="@+id/whatOnYourMindCardView"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content"
+                android:elevation="0dp">
 
-                <android.support.v7.widget.CardView
-                    android:id="@+id/whatOnYourMindCardView"
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:elevation="0dp">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="100dp"
-                        android:background="#fff"
-                        android:elevation="0dp"
-                        android:padding="10dp"
-                        >
-
-
-                        <ImageView
-                            android:id="@+id/imageView2"
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
-                            android:layout_alignParentTop="true"
-                            android:layout_alignStart="@+id/view"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/profilepic" />
-
-                        <TextView
-                            android:id="@+id/whattextview3"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignTop="@+id/imageView2"
-                            android:layout_marginStart="22dp"
-                            android:layout_marginTop="19dp"
-                            android:layout_toEndOf="@+id/imageView2"
-
-                            android:text="Sahil Singh Bhatoa"
-                            android:textColor="#000"
-                            android:textSize="25sp" />
-
-                    </RelativeLayout>
-
-                </android.support.v7.widget.CardView>
-
-                <android.support.v7.widget.CardView
-                    android:id="@+id/whatOnYourMindCardView2"
-                    android:layout_below="@id/whatOnYourMindCardView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:elevation="0dp">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="100dp"
-                        android:background="#fff"
-                        android:elevation="0dp"
-                        android:padding="10dp"
-                        >
-
-
-                        <ImageView
-                            android:id="@+id/imageView2"
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
-                            android:layout_alignParentTop="true"
-                            android:layout_alignStart="@+id/view"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/profilepic" />
-
-                        <TextView
-                            android:id="@+id/whattextview"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignTop="@+id/imageView2"
-                            android:layout_marginStart="22dp"
-                            android:layout_marginTop="19dp"
-                            android:layout_toEndOf="@+id/imageView2"
-
-                            android:text="Sahil_Bhatoa"
-                            android:textColor="#000"
-                            android:textSize="25sp" />
-
-
-                        <ImageView
-                            android:id="@+id/imageView7"
-                            android:layout_marginTop="19dp"
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
-                            android:scaleX="1.2"
-                            android:scaleY="1.2"
-                            android:layout_marginRight="5dp"
-                            android:layout_alignParentRight="true"
-                            android:src="@drawable/furz" />
-
-
-
-                    </RelativeLayout>
-
-                </android.support.v7.widget.CardView>
-                <TextView
-                    android:id="@+id/whattextview1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/whatOnYourMindCardView2"
-                    android:text="Favorites"
-                    android:textSize="25sp"
+                    android:layout_height="100dp"
+                    android:background="#fff"
+                    android:elevation="0dp"
                     android:padding="10dp">
 
 
-                </TextView>
-                <android.support.v7.widget.CardView
-                    android:id="@+id/whatOnYourMindCardView3"
-                    android:layout_below="@id/whattextview1"
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/view"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/profilepic" />
 
+                    <TextView
+                        android:id="@+id/whattextview3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/imageView2"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="19dp"
+                        android:layout_toEndOf="@+id/imageView2"
+
+                        android:text="Sahil Singh Bhatoa"
+                        android:textColor="#000"
+                        android:textSize="25sp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/whatOnYourMindCardView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/whatOnYourMindCardView"
+                android:elevation="0dp">
+
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:elevation="0dp">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="100dp"
-                        android:background="#fff"
-                        android:elevation="0dp"
-                        android:padding="10dp"
-                        >
+                    android:layout_height="100dp"
+                    android:background="#fff"
+                    android:elevation="0dp"
+                    android:padding="10dp">
 
 
-                        <ImageView
-                            android:id="@+id/imageView2"
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
-                            android:layout_alignParentTop="true"
-                            android:layout_alignStart="@+id/view"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/dicover" />
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/view"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/profilepic" />
 
-                        <TextView
-                            android:id="@+id/whattextview"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignTop="@+id/imageView2"
-                            android:layout_marginStart="22dp"
-                            android:layout_marginTop="19dp"
-                            android:layout_toEndOf="@+id/imageView2"
+                    <TextView
+                        android:id="@+id/whattextview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/imageView2"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="19dp"
+                        android:layout_toEndOf="@+id/imageView2"
 
-                            android:text="Discover people"
-                            android:textColor="#000"
-                            android:textSize="25sp" />
-                    </RelativeLayout>
-
-                </android.support.v7.widget.CardView>
+                        android:text="Sahil_Bhatoa"
+                        android:textColor="#000"
+                        android:textSize="25sp" />
 
 
-                <android.support.v7.widget.CardView
-                    android:id="@+id/whatOnYourMindCardView4"
-                    android:layout_below="@+id/whatOnYourMindCardView3"
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="19dp"
+                        android:scaleX="1.2"
+                        android:scaleY="1.2"
+                        android:src="@drawable/furz" />
 
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/whattextview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/whatOnYourMindCardView2"
+                android:padding="10dp"
+                android:text="Favorites"
+                android:textSize="25sp">
+
+
+            </TextView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/whatOnYourMindCardView3"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@id/whattextview1"
+                android:elevation="0dp">
+
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:elevation="0dp">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="100dp"
-                        android:background="#fff"
-                        android:elevation="0dp"
-                        android:padding="10dp"
-                        >
+                    android:layout_height="100dp"
+                    android:background="#fff"
+                    android:elevation="0dp"
+                    android:padding="10dp">
 
 
-                        <ImageView
-                            android:id="@+id/imageView3"
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
-                            android:layout_alignParentTop="true"
-                            android:layout_alignStart="@+id/view"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/aa" />
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/view"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/dicover" />
 
-                        <TextView
-                            android:id="@+id/whattextview2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignTop="@+id/imageView3"
-                            android:layout_marginStart="22dp"
-                            android:layout_marginTop="19dp"
-                            android:layout_toEndOf="@+id/imageView3"
+                    <TextView
+                        android:id="@+id/whattextview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/imageView2"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="19dp"
+                        android:layout_toEndOf="@+id/imageView2"
 
-                            android:text="Events"
-                            android:textColor="#000"
-                            android:textSize="25sp" />
-                        <ImageView
-                            android:id="@+id/imageView7"
-                            android:layout_marginTop="19dp"
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
-                            android:scaleX="0.7"
-                            android:scaleY="0.7"
-                            android:layout_alignParentRight="true"
-                            android:src="@drawable/uiii" />
+                        android:text="Discover people"
+                        android:textColor="#000"
+                        android:textSize="25sp" />
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
 
 
+            <android.support.v7.widget.CardView
+                android:id="@+id/whatOnYourMindCardView4"
+                android:layout_width="match_parent"
 
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/whatOnYourMindCardView3"
+                android:elevation="0dp">
 
-                    </RelativeLayout>
-
-                </android.support.v7.widget.CardView>
-
-                <android.support.v7.widget.CardView
-                    android:id="@+id/whatOnYourMindCardView5"
-                    android:layout_below="@+id/whatOnYourMindCardView4"
-
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:elevation="0dp">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="100dp"
-                        android:background="#fff"
-                        android:elevation="0dp"
-                        android:padding="10dp">
+                    android:layout_height="100dp"
+                    android:background="#fff"
+                    android:elevation="0dp"
+                    android:padding="10dp">
 
 
-                        <ImageView
-                            android:id="@+id/imageView3"
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
-                            android:layout_alignParentTop="true"
-                            android:layout_alignStart="@+id/view"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/ab" />
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/view"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/aa" />
 
-                        <TextView
-                            android:id="@+id/whattextview2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignTop="@+id/imageView3"
-                            android:layout_marginStart="22dp"
-                            android:layout_marginTop="19dp"
-                            android:layout_toEndOf="@+id/imageView3"
+                    <TextView
+                        android:id="@+id/whattextview2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/imageView3"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="19dp"
+                        android:layout_toEndOf="@+id/imageView3"
 
-                            android:text=" Friends"
-                            android:textColor="#000"
-                            android:textSize="25sp" />
+                        android:text="Events"
+                        android:textColor="#000"
+                        android:textSize="25sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="19dp"
+                        android:scaleX="0.7"
+                        android:scaleY="0.7"
+                        android:src="@drawable/uiii" />
 
 
-                    </RelativeLayout>
+                </RelativeLayout>
 
-                </android.support.v7.widget.CardView>
+            </android.support.v7.widget.CardView>
 
+            <android.support.v7.widget.CardView
+                android:id="@+id/whatOnYourMindCardView5"
+                android:layout_width="match_parent"
 
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/whatOnYourMindCardView4"
+                android:elevation="0dp">
 
-                <android.support.v7.widget.CardView
-                    android:id="@+id/whatOnYourMindCardView6"
-                    android:layout_below="@+id/whatOnYourMindCardView5"
-
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:elevation="0dp">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="100dp"
-                        android:background="#fff"
-                        android:elevation="0dp"
-                        android:padding="10dp">
+                    android:layout_height="100dp"
+                    android:background="#fff"
+                    android:elevation="0dp"
+                    android:padding="10dp">
 
 
-                        <ImageView
-                            android:id="@+id/imageView3"
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
-                            android:layout_alignParentTop="true"
-                            android:layout_alignStart="@+id/view"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/ac" />
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/view"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ab" />
 
-                        <TextView
-                            android:id="@+id/whattextview2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignTop="@+id/imageView3"
-                            android:layout_marginStart="22dp"
-                            android:layout_marginTop="19dp"
-                            android:layout_toEndOf="@+id/imageView3"
+                    <TextView
+                        android:id="@+id/whattextview2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/imageView3"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="19dp"
+                        android:layout_toEndOf="@+id/imageView3"
 
-                            android:text="Buy and Sell groups"
-                            android:textColor="#000"
-                            android:textSize="25sp" />
-
-
-                    </RelativeLayout>
-
-                </android.support.v7.widget.CardView>
+                        android:text=" Friends"
+                        android:textColor="#000"
+                        android:textSize="25sp" />
 
 
-                <android.support.v7.widget.CardView
-                    android:id="@+id/whatOnYourMindCardView7"
-                    android:layout_below="@+id/whatOnYourMindCardView6"
+                </RelativeLayout>
 
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/whatOnYourMindCardView6"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/whatOnYourMindCardView5"
+                android:elevation="0dp">
+
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:elevation="0dp">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="100dp"
-                        android:background="#fff"
-                        android:elevation="0dp"
-                        android:padding="10dp">
+                    android:layout_height="100dp"
+                    android:background="#fff"
+                    android:elevation="0dp"
+                    android:padding="10dp">
 
 
-                        <ImageView
-                            android:id="@+id/imageView3"
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
-                            android:layout_alignParentTop="true"
-                            android:layout_alignStart="@+id/view"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/ad" />
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/view"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ac" />
 
-                        <TextView
-                            android:id="@+id/whattextview2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignTop="@+id/imageView3"
-                            android:layout_marginStart="22dp"
-                            android:layout_marginTop="19dp"
-                            android:layout_toEndOf="@+id/imageView3"
+                    <TextView
+                        android:id="@+id/whattextview2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/imageView3"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="19dp"
+                        android:layout_toEndOf="@+id/imageView3"
 
-                            android:text="Shops"
-                            android:textColor="#000"
-                            android:textSize="25sp" />
+                        android:text="Buy and Sell groups"
+                        android:textColor="#000"
+                        android:textSize="25sp" />
 
 
-                    </RelativeLayout>
+                </RelativeLayout>
 
-                </android.support.v7.widget.CardView>
+            </android.support.v7.widget.CardView>
 
-                <android.support.v7.widget.CardView
-                    android:id="@+id/whatOnYourMindCardView8"
-                    android:layout_below="@+id/whatOnYourMindCardView6"
 
+            <android.support.v7.widget.CardView
+                android:id="@+id/whatOnYourMindCardView7"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/whatOnYourMindCardView6"
+                android:elevation="0dp">
+
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:elevation="0dp">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="100dp"
-                        android:background="#fff"
-                        android:elevation="0dp"
-                        android:padding="10dp">
+                    android:layout_height="100dp"
+                    android:background="#fff"
+                    android:elevation="0dp"
+                    android:padding="10dp">
 
 
-                        <ImageView
-                            android:id="@+id/imageView3"
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
-                            android:layout_alignParentTop="true"
-                            android:layout_alignStart="@+id/view"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/ad" />
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/view"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ad" />
 
-                        <TextView
-                            android:id="@+id/whattextview2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignTop="@+id/imageView3"
-                            android:layout_marginStart="22dp"
-                            android:layout_marginTop="19dp"
-                            android:layout_toEndOf="@+id/imageView3"
+                    <TextView
+                        android:id="@+id/whattextview2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/imageView3"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="19dp"
+                        android:layout_toEndOf="@+id/imageView3"
 
-                            android:text="Shops"
-                            android:textColor="#000"
-                            android:textSize="25sp" />
-                    </RelativeLayout>
+                        android:text="Shops"
+                        android:textColor="#000"
+                        android:textSize="25sp" />
 
-                </android.support.v7.widget.CardView>
 
-                <android.support.v7.widget.CardView
-                    android:id="@+id/whatOnYourMindCardView9"
-                    android:layout_below="@+id/whatOnYourMindCardView8"
+                </RelativeLayout>
 
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/whatOnYourMindCardView8"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/whatOnYourMindCardView6"
+                android:elevation="0dp">
+
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:elevation="0dp">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="100dp"
-                        android:background="#fff"
-                        android:elevation="0dp"
-                        android:padding="10dp">
+                    android:layout_height="100dp"
+                    android:background="#fff"
+                    android:elevation="0dp"
+                    android:padding="10dp">
 
 
-                        <ImageView
-                            android:id="@+id/imageView3"
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
-                            android:layout_alignParentTop="true"
-                            android:layout_alignStart="@+id/view"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/zxy" />
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/view"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ad" />
 
-                        <TextView
-                            android:id="@+id/whattextview2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignTop="@+id/imageView3"
-                            android:layout_marginStart="22dp"
-                            android:layout_marginTop="19dp"
-                            android:layout_toEndOf="@+id/imageView3"
+                    <TextView
+                        android:id="@+id/whattextview2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/imageView3"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="19dp"
+                        android:layout_toEndOf="@+id/imageView3"
 
-                            android:text="NearBy Friends"
-                            android:textColor="#000"
-                            android:textSize="25sp" />
-                    </RelativeLayout>
+                        android:text="Shops"
+                        android:textColor="#000"
+                        android:textSize="25sp" />
+                </RelativeLayout>
 
-                </android.support.v7.widget.CardView>
-            </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/whatOnYourMindCardView9"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/whatOnYourMindCardView8"
+                android:elevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#fff"
+                    android:elevation="0dp"
+                    android:padding="10dp">
 
 
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/view"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/zxy" />
 
-        </ScrollView>
+                    <TextView
+                        android:id="@+id/whattextviewnn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/imageView3"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="19dp"
+                        android:layout_toEndOf="@+id/imageView3"
+
+                        android:text="NearBy Friends"
+                        android:textColor="#000"
+                        android:textSize="25sp" />
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+
+
+    </ScrollView>
 </LinearLayout>

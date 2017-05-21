@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">>
-        <activity android:name=".navtejPackage.profileScreen">
+        <activity android:name=".feiPackage.signin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,7 +31,42 @@
              android:label="@string/app_name">
          </activity>
        -->
+        <activity
+            android:name=".navtejPackage.nearByFriends"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name=".navtejPackage.UserScreen" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".feiPackage.emailToPhone"
+           >
+            <intent-filter>
+                <action android:name=".navtejPackage.UserScreen" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".feiPackage.phoneToEmail"
+            >
+            <intent-filter>
+                <action android:name=".navtejPackage.UserScreen" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sahilPackage.MainActivity"
+            >
+            <intent-filter>
+                <action android:name=".sahilPackage.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
  </manifest>

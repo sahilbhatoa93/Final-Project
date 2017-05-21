@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:fab="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:background="#DBDBDD"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
     <LinearLayout
         android:background="#DBDBDD"
         android:paddingTop="2dp"
@@ -29,6 +29,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/requestSwipeContainer"
         android:layout_width="match_parent"
+
         android:layout_height="match_parent">
     <ScrollView
         android:id="@+id/scrollView2"
@@ -39,7 +40,12 @@
             android:id="@+id/requestrv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            />
+            >
+
+
+
+
+        </android.support.v7.widget.RecyclerView>
 
     </ScrollView>
 </android.support.v4.widget.SwipeRefreshLayout>

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.a1691717.facebookjack.R;
+import com.example.a1691717.facebookjack.sahilPackage.MainActivity;
 
 /**
  * Created by fei on 5/21/17.
@@ -19,6 +20,12 @@ public class signin extends Activity{
     public void goTo3(View view)
     {
         Intent intent = new Intent(signin.this, emailToPhone.class);
+        startActivity(intent);
+    }
+
+    public void goTosahilPart(View view)
+    {
+        Intent intent = new Intent(signin.this, MainActivity.class);
         startActivity(intent);
     }
 }

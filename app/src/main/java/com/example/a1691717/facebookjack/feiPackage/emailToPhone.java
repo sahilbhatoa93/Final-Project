@@ -19,7 +19,7 @@ public class emailToPhone extends Activity{
         setContentView(R.layout.siup_up_withnumber);}
 
 
-        public void goTo1(View view)
+        public void goTo2(View view)
         {
             Intent intent = new Intent(emailToPhone.this, phoneToEmail.class);
             startActivity(intent);

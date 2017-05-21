@@ -16,7 +16,7 @@ public class phoneToEmail extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sign_up_withemail);
     }
-    public void goTo2(View view)
+    public void goTo1(View view)
     {
         Intent intent = new Intent(phoneToEmail.this, emailToPhone.class);
         startActivity(intent);
