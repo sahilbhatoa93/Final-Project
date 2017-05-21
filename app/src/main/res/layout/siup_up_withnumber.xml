@@ -34,7 +34,7 @@
         android:layout_height="40dp"
         android:layout_marginStart="25dp"
         android:layout_marginTop="20dp"
-        android:onClick="phoneRequest"
+        android:onClick="goTo2"
         android:text="Use your Email address"
         android:textColor="#000" />
 
