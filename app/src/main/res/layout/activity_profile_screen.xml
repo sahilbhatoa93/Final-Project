@@ -354,6 +354,88 @@
                     </RelativeLayout>
 
                 </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/whatOnYourMindCardView8"
+                    android:layout_below="@+id/whatOnYourMindCardView6"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="0dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="#fff"
+                        android:elevation="0dp"
+                        android:padding="10dp">
+
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignStart="@+id/view"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/ad" />
+
+                        <TextView
+                            android:id="@+id/whattextview2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/imageView3"
+                            android:layout_marginStart="22dp"
+                            android:layout_marginTop="19dp"
+                            android:layout_toEndOf="@+id/imageView3"
+
+                            android:text="Shops"
+                            android:textColor="#000"
+                            android:textSize="25sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/whatOnYourMindCardView9"
+                    android:layout_below="@+id/whatOnYourMindCardView8"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="0dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="#fff"
+                        android:elevation="0dp"
+                        android:padding="10dp">
+
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignStart="@+id/view"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/zxy" />
+
+                        <TextView
+                            android:id="@+id/whattextview2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/imageView3"
+                            android:layout_marginStart="22dp"
+                            android:layout_marginTop="19dp"
+                            android:layout_toEndOf="@+id/imageView3"
+
+                            android:text="NearBy Friends"
+                            android:textColor="#000"
+                            android:textSize="25sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
             </RelativeLayout>
 
 
